@@ -1,4 +1,4 @@
-FROM golang:1.10.2
+FROM golang:1.13
 
 RUN apt-get update
 RUN apt-get install -y -qq mingw-w64
